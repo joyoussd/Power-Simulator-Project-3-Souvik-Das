@@ -7,7 +7,7 @@ The Repository containts all the relevant documents regarding Project 3 - Unsymm
 4) PowerWorld file - p3souvik.pwb
 
 
-Project Flow
+Project Flow :
 The project has two phases: build the classes, then run validation.
 Phase 1 — Class development
 #	File	Role
