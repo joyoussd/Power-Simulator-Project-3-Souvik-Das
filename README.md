@@ -12,13 +12,13 @@ The project has two phases: build the classes, then run validation.
 Phase 1 — Class development
 #	File	Role
 1)	src/Settings.py --- 	System constants (60 Hz, 100 MVA base)
-2)	src/Bus.py	-- Bus class with class-level counter for bus indexing
+2)	src/Bus.py	-- Bus class with class level counter for bus indexing
 3)	src/Generator.py  -- 	Generator with sequence reactances (x1, x2, x0) and grounding
 4)	src/Transformer.py --- 	Transformer with calc_yprim_sequence() for winding configurations
 5)	src/TransmissionLine.py --- 	Line with calc_yprim_sequence() and z0_multiplier
-6)	src/Load.py ---	Constant-power load
+6)	src/Load.py ---	Constant power load
 7)	src/Circuit.py  -- 	Network container; builds y1bus, y2bus, y0bus, and Z-bus matrices
-8)	src/PowerFlow.py -- Newton-Raphson power-flow solver
+8)	src/PowerFlow.py -- Newton Raphson power-flow solver
 9)	src/SymmetricalFault.py	--- 3-phase fault solver (positive sequence only)
 10)	src/UnsymmetricalFault.py  ---	NEW for Project 2 — SLG, LL, DLG via Fortescue transform
 11)	src/Solver.py  ---	Unified facade: run_powerflow() and run_fault(fault_type, ...)
